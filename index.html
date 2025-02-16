@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content='width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, user-scalable=no, shrink-to-fit=yes'>
-    <title>Unity WebGL Player | CINTAC AR 2025</title>
+    <title>Unity WebGL Player | WebLoadingTest</title>
     <link rel="stylesheet" href="TemplateData/style.css">
     <style>
         html{
@@ -79,7 +79,7 @@
     </div>
     <script src="arcamera.js" type="text/javascript"></script>
     <script src="itracker.js" type="text/javascript"></script>
-    <script src="Build/Build Opt.loader.js"></script>
+    <script src="Build/25be0729ec3a4b8b826e4803c7f9dfac.loader.js"></script>
     <script>
             var initialize = async() =>{
                 var unityCanvas = document.querySelector("#unity-canvas");
@@ -111,13 +111,13 @@
                 
                 document.getElementById("startARDiv").style.display = "none";
                 createUnityInstance(document.querySelector("#unity-canvas"), {
-                    dataUrl: "Build/Build Opt.data",
-                    frameworkUrl: "Build/Build Opt.framework.js",
-                    codeUrl: "Build/Build Opt.wasm",
+                    dataUrl: "Build/aad062ddf5f3614447ba5cf0cc70c5c1.data",
+                    frameworkUrl: "Build/eb9c8e42f86f6f98cda5225827ea97f1.framework.js",
+                    codeUrl: "Build/02d8051072b2b89a3bdccc328098a807.wasm",
                     streamingAssetsUrl: "StreamingAssets",
-                    companyName: "DefaultCompany",
-                    productName: "CINTAC AR 2025",
-                    productVersion: "0.1",
+                    companyName: "JohannesDeml",
+                    productName: "WebLoadingTest",
+                    productVersion: "1.4.0",
                     //webglContextAttributes: { "preserveDrawingBuffer": true },
                     // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
                     // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
